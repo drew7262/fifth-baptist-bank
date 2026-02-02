@@ -1,0 +1,16 @@
+{
+  "name": "fifth-baptist-bank-server",
+  "version": "1.0.0",
+  "description": "Backend server for Fifth Baptist Bank scambaiting application.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=index.js --jsx=automatic --loader:.tsx=tsx --format=esm --external:react --external:react/* --external:react-dom/* --external:react-router-dom --external:jspdf --external:jspdf-autotable",
+    "start": "npm run build && node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "esbuild": "^0.20.2"
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "customerId": "11223344",
+      "password": "password1234",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": "123 Main St, Anytown, USA",
+      "accounts": [
+        {
+          "id": "acc-001",
+          "type": "Checking",
+          "accountNumber": "5501234567",
+          "routingNumber": "021000021",
+          "balance": 15250.75,
+          "transactions": [
+            {
+              "id": "abcde123",
+              "date": "2024-07-20",
+              "description": "Payroll Deposit - Acme Corp",
+              "amount": 3500,
+              "type": "credit",
+              "balance": 15250.75
+            },
+            {
+              "id": "fghij456",
+              "date": "2024-07-18",
+              "description": "Grocery Store Purchase",
+              "amount": -150.25,
+              "type": "debit",
+              "balance": 11750.75
+            },
+            {
+              "id": "klmno789",
+              "date": "2024-07-15",
+              "description": "Online Shopping - TechStuff",
+              "amount": -499.99,
+              "type": "debit",
+              "balance": 11901
+            }
+          ],
+          "pendingTransactions": [
+            {
+              "id": "pqrst101",
+              "date": "2024-07-22",
+              "description": "Incoming Wire Transfer - Int. Services",
+              "amount": 15000,
+              "status": "Pending"
+            }
+          ]
+        },
+        {
+          "id": "acc-002",
+          "type": "Savings",
+          "nickname": "Vacation Fund",
+          "accountNumber": "5507654321",
+          "routingNumber": "021000021",
+          "balance": 78000,
+          "transactions": [
+            {
+              "id": "uvwxy112",
+              "date": "2024-07-01",
+              "description": "Interest Payment",
+              "amount": 120.5,
+              "type": "credit",
+              "balance": 78000
+            },
+            {
+              "id": "zabcd131",
+              "date": "2024-06-25",
+              "description": "Transfer from Checking",
+              "amount": 2000,
+              "type": "credit",
+              "balance": 77879.5
+            }
+          ]
+        },
+        {
+          "id": "acc-004",
+          "type": "Credit Card",
+          "nickname": "Rewards Card",
+          "accountNumber": "4401823456781234",
+          "balance": -1234.56,
+          "creditLimit": 15000,
+          "interestRate": 21.99,
+          "transactions": [
+            {
+              "id": "efghi141",
+              "date": "2024-07-21",
+              "description": "Payment - Thank You",
+              "amount": 500,
+              "type": "credit",
+              "balance": -1234.56
+            },
+            {
+              "id": "jklmn151",
+              "date": "2024-07-19",
+              "description": "Airline Ticket - FlyAway",
+              "amount": -850.22,
+              "type": "debit",
+              "balance": -1734.56
+            }
+          ]
+        }
+      ],
+      "alerts": [
+        {
+          "id": "opqrs161",
+          "date": "2024-07-22",
+          "message": "A large deposit of $15,000.00 is pending for your Checking account.",
+          "read": false
+        },
+        {
+          "id": "tuvwx171",
+          "date": "2024-07-21",
+          "message": "Your monthly statement for account ...1234 is ready to view.",
+          "read": false
+        },
+        {
+          "id": "yzabc181",
+          "date": "2024-07-18",
+          "message": "Security Alert: A login to your account occurred from a new device.",
+          "read": true
+        }
+      ],
+      "scheduledPayments": [],
+      "chat": {
+        "messages": []
+      },
+      "isLocked": false,
+      "lockoutReason": "",
+      "canApplyForCredit": false,
+      "isDebitCardLocked": false,
+      "history": []
+    },
+    {
+      "id": "user-002",
+      "customerId": "55667788",
+      "password": "password5678",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "address": "456 Oak Ave, Anytown, USA",
+      "accounts": [
+        {
+          "id": "acc-003",
+          "type": "Checking",
+          "accountNumber": "5509876543",
+          "routingNumber": "021000021",
+          "balance": 5780.4,
+          "transactions": [
+            {
+              "id": "defgh191",
+              "date": "2024-07-21",
+              "description": "Mobile Check Deposit",
+              "amount": 850,
+              "type": "credit",
+              "balance": 5780.4
+            },
+            {
+              "id": "ijklm202",
+              "date": "2024-07-19",
+              "description": "Restaurant - The Grand Bistro",
+              "amount": -85.6,
+              "type": "debit",
+              "balance": 4930.4
+            }
+          ]
+        },
+        {
+          "id": "acc-005",
+          "type": "Mortgage",
+          "nickname": "Home Loan",
+          "accountNumber": "6601987654",
+          "balance": -285450.22,
+          "loanAmount": 320000,
+          "interestRate": 6.75,
+          "loanStartDate": "2022-08-15",
+          "estimatedPayoffDate": "2052-08-15",
+          "transactions": [
+            {
+              "id": "nopqr212",
+              "date": "2024-07-15",
+              "description": "Monthly Mortgage Payment",
+              "amount": 2075.88,
+              "type": "credit",
+              "balance": -285450.22
+            }
+          ]
+        }
+      ],
+      "scheduledPayments": [],
+      "chat": {
+        "messages": []
+      },
+      "isLocked": false,
+      "lockoutReason": "",
+      "canApplyForCredit": false,
+      "isDebitCardLocked": false,
+      "history": []
+    },
+    {
+      "id": "o2da0wc",
+      "customerId": "bwatk",
+      "password": "password",
+      "name": "Ben Watkins",
+      "email": "bwatk@gmail.com",
+      "address": "123 Mays lane mayberry",
+      "accounts": [
+        {
+          "id": "btoljhb",
+          "type": "Checking",
+          "accountNumber": "4407538955",
+          "routingNumber": "021000021",
+          "balance": 5500,
+          "transactions": [
+            {
+              "date": "2026-02-02",
+              "description": "Support transfer fro 4401889873",
+              "amount": 5000,
+              "type": "credit",
+              "id": "36c0r9x",
+              "balance": 5500
+            },
+            {
+              "date": "2026-02-02",
+              "description": "amex 88917",
+              "amount": -8000,
+              "type": "debit",
+              "id": "pno7g4g",
+              "balance": 500
+            },
+            {
+              "date": "2026-02-02",
+              "description": "Cash Deposit Branch // WELCOME ",
+              "amount": 8500,
+              "type": "credit",
+              "id": "w9kmzks",
+              "balance": 8500
+            }
+          ]
+        },
+        {
+          "id": "urtk5aw",
+          "type": "Credit Card",
+          "nickname": "Platinum Rewards",
+          "accountNumber": "4401889873",
+          "balance": -5000,
+          "creditLimit": 12000,
+          "interestRate": 29.99,
+          "transactions": [
+            {
+              "date": "2026-02-02",
+              "description": "Support transfer from 4401889873",
+              "amount": -5000,
+              "type": "debit",
+              "id": "km782d2",
+              "balance": -5000
+            },
+            {
+              "date": "2026-02-02",
+              "description": "Support transfer from 4401889873",
+              "amount": 5000,
+              "type": "credit",
+              "id": "2j3qzt3",
+              "balance": 0
+            },
+            {
+              "date": "2026-02-02",
+              "description": "Support transfer to checking ",
+              "amount": -5000,
+              "type": "debit",
+              "id": "nwjg161",
+              "balance": -5000
+            }
+          ],
+          "status": "active"
+        }
+      ],
+      "isLocked": false,
+      "lockoutReason": "",
+      "canApplyForCredit": false,
+      "isDebitCardLocked": false,
+      "history": [
+        {
+          "id": "rqxkkf2",
+          "timestamp": "2026-02-02T10:48:22.903Z",
+          "type": "Successful Login",
+          "details": {
+            "ipAddress": "127.0.0.1"
+          }
+        },
+        {
+          "id": "7c29rrd",
+          "timestamp": "2026-02-02T10:49:33.294Z",
+          "type": "Credit Application Submitted",
+          "details": {
+            "fullName": "Ben Watkins",
+            "dob": "2000-01-01",
+            "maritalStatus": "single",
+            "ssn": "452000021",
+            "monthlyHousing": "1",
+            "yearlyIncome": "85000",
+            "requestedLimit": "550000"
+          }
+        },
+        {
+          "id": "8c62aow",
+          "timestamp": "2026-02-02T10:49:40.298Z",
+          "type": "Credit Application Approved",
+          "details": {
+            "approvedLimit": 17000
+          }
+        },
+        {
+          "id": "aoklsnh",
+          "timestamp": "2026-02-02T10:50:33.322Z",
+          "type": "Account Manually Approved",
+          "details": {
+            "accountId": "urtk5aw",
+            "approvedBy": "admin"
+          }
+        }
+      ],
+      "alerts": [
+        {
+          "id": "cq2mn4j",
+          "date": "2/2/2026",
+          "message": "Congratulations! Your new Credit Card has been approved with an interest rate of 29.99%. Your card will arrive in 7-10 business days.",
+          "read": false
+        }
+      ],
+      "chat": {
+        "messages": [
+          {
+            "id": "3wk29ao",
+            "sender": "customer",
+            "text": "move 5000 from my credit card to my checking please",
+            "timestamp": "2026-02-02T10:53:20.653Z",
+            "read": false
+          },
+          {
+            "id": "7udb565",
+            "sender": "admin",
+            "text": "one moment please. It your balances will change momentarily",
+            "timestamp": "2026-02-02T10:53:49.595Z",
+            "read": false
+          },
+          {
+            "id": "dein3pb",
+            "sender": "admin",
+            "text": "COMPLETE",
+            "timestamp": "2026-02-02T10:56:24.201Z",
+            "read": false
+          }
+        ]
+      }
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin-001",
+      "username": "admin",
+      "password": "password123"
+    }
+  ],
+  "globalBanner": {
+    "message": "Maintenance Notice: Online banking will be briefly unavailable on Sunday from 2 AM to 3 AM.",
+    "isVisible": true
+  }
+}
